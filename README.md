@@ -45,7 +45,7 @@
     - The code is tested on `pytorch 2.1.0` and `cuda 12.1`, other versions may have compatibility issues.
 
 3. Download the pre-trained model:
-    - Pre-trained ControlVLA model [here](https://github.com/facebookresearch/sam2/tree/main?tab=readme-ov-file#download-checkpoints), unzip and place it in the `./data` folder.
+    - Pre-trained ControlVLA model [here](https://drive.google.com/file/d/1VcJle5Ooem7PHMU494qWWa-agMUj6hAE/view?usp=sharing), unzip and place it in the `./data` folder.
     - SAM2 model following the instructions [here](https://github.com/facebookresearch/sam2/tree/main?tab=readme-ov-file#download-checkpoints) and place it in the `./data/checkpoints` folder. Note that the default config uses checkpoint `sam2_hiera_tiny.pt`. You can simply download the default checkpoint with wget: `cd data/checkpoints && wget https://dl.fbaipublicfiles.com/segment_anything_2/072824/sam2_hiera_tiny.pt`.
 
 ## 🗃️ Data Collection
